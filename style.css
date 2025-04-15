@@ -18,11 +18,11 @@ h1 {
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
 }
 .bem {
-    font-size: 120px;
+    font-size: 150px;
     margin-top: -60px;
 }
 .vindos {
-    font-size: 120px;
+    font-size: 150px;
     margin-top: -80px;
 }
 .p1 {
@@ -49,6 +49,35 @@ h1 {
     box-shadow: 2px 2px 100px rgba(245, 149, 0, 1);
     border-radius: 100px;
     background-color: rgba(245, 149, 0, 0.1);
+}
+@media (max-width: 768px) {
+    .bem, .vindos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: static;
+        flex-wrap: wrap;
+    }
+    .bem {
+        font-size: 100px;
+        margin-top: -30px;
+    }
+    .vindos {
+        font-size: 100px;
+        margin-top: -40px;
+    }
+    .p1 {
+        top: -10px;
+        font-size: 20px;
+    }
+    .p2 {
+        font-size: 20px;
+        margin: 0 auto;
+        margin-top: 300px;
+        width: 300px;
+        flex-wrap: wrap;
+    }
 }
 #hamburguer {
     background: url("hamburguer2.webp");
