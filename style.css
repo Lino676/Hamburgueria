@@ -60,11 +60,11 @@ h1 {
         flex-wrap: wrap;
     }
     .bem {
-        font-size: 100px;
+        font-size: 120px;
         margin-top: -30px;
     }
     .vindos {
-        font-size: 100px;
+        font-size: 120px;
         margin-top: -40px;
     }
     .p1 {
@@ -81,13 +81,13 @@ h1 {
 }
 @media (max-width: 480px){
     .bem, .vindos {
-        font-size: 80px;
+        font-size: 100px;
 }
 .p1 {
     top: -10px;
 }
 .p2 {
-    margin-top: 200px;
+    top: 10px;
 }
 }
 #hamburguer {
