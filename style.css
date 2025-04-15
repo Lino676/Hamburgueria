@@ -81,13 +81,13 @@ h1 {
 }
 @media (max-width: 480px){
     .bem, .vindos {
-        font-size: 100px;
+        font-size: 90px;
 }
 .p1 {
-    top: -10px;
+    top: -15px;
 }
 .p2 {
-    top: 10px;
+    top: 5px;
 }
 }
 #hamburguer {
