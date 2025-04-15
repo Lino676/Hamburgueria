@@ -79,6 +79,35 @@ h1 {
         flex-wrap: wrap;
     }
 }
+@media (max-width: 480px){
+    .bem, .vindos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: static;
+        flex-wrap: wrap;
+    }
+    .bem {
+        font-size: 80px;
+        margin-top: -30px;
+    }
+    .vindos {
+        font-size: 80px;
+        margin-top: -40px;
+    }
+    .p1 {
+        top: -10px;
+        font-size: 20px;
+    }
+    .p2 {
+        font-size: 20px;
+        margin: 0 auto;
+        margin-top: 300px;
+        width: 300px;
+        flex-wrap: wrap;
+    }
+}
 #hamburguer {
     background: url("hamburguer2.webp");
     background-size: cover;
