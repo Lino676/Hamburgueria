@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     color: black;
     background-color: black ;
@@ -130,3 +131,137 @@ h2 {
     transform: scale(1.05);
     cursor: pointer;
 }
+=======
+body {
+    color: black;
+    background-color: black ;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    position: relative;
+}
+.bem, .vindos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #ff9500;
+    font-family: 'Pacifico', sans-serif;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
+}
+.bem {
+    font-size: 120px;
+    margin-top: -60px;
+}
+.vindos {
+    font-size: 120px;
+    margin-top: -80px;
+}
+.p1 {
+    top: -30px;
+    color: #ff9500;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    text-shadow: 2px 3px 6px rgba(255, 255, 255, 0.6);
+    margin: 0 auto;
+    border: solid 2px transparent;
+    box-shadow: 5px 5px 100px rgba(245, 149, 0, 1);
+    background-color: rgba(245, 149, 0, 0.1);
+    width: 300px;
+    border-radius: 100px;
+}
+.p2 {
+    color: #ff9500;
+    text-shadow: 2px 3px 6px rgba(255, 255, 255, 0.6);
+    font-family: 'Pacifico', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 400px;
+    box-shadow: 2px 2px 100px rgba(245, 149, 0, 1);
+    border-radius: 100px;
+    background-color: rgba(245, 149, 0, 0.1);
+}
+#hamburguer {
+    background: url("hamburguer2.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+#hamburguer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2); /* você pode ajustar o valor depois */
+    z-index: 0;
+}
+
+#hamburguer > * {
+    position: relative;
+    z-index: 1;
+}
+.botao {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background-color: orange;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: solid 2px black;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px orange;
+    font-family: 'Lilita One' ,sans-serif;
+    transition: 0.3s ease;
+}
+.botao:hover {
+    background-color: #ff9500;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#detalhes {
+    color: orange;
+}
+#detalhes p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lilita One' ,sans-serif;
+    margin-top: 40px;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+}
+h2 {
+    color: orange;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.7);
+}
+.whatsapp {
+    display: block;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    background-color: green;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: solid 2px white;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px white;
+    font-family: 'Lilita One' ,sans-serif;
+    transition: 0.3s ease;
+}
+.whatsapp:hover {
+    background-color: #32CD32;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+>>>>>>> 75fe283af7882f106e95e456e3ed32a7d33babd8
