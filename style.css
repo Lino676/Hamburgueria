@@ -1,0 +1,77 @@
+body {
+    color: black;
+    background: url("UaiBurguer.webp");
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    position: relative;
+}
+h2 {
+    color: orange;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+}
+.bem, .vindos {
+    margin-bottom: 10px;
+    color: orange;
+    position: relative;
+    font-family: 'Pacifico', sans-serif;
+    text-shadow: 3px 3px 8px rgba(255, 255, 255, 0.7);
+}
+.bem {
+    font-size: 150px;
+    top: -60px;
+    left: 70px;
+
+}
+.vindos {
+    font-size: 150px;
+    top: 100px;
+    right: 100px;
+}
+#hamburguer {
+    background: url("hamburguer2.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+#hamburguer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2); /* você pode ajustar o valor depois */
+    z-index: 0;
+}
+
+#hamburguer > * {
+    position: relative;
+    z-index: 1;
+}
+.botao {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background-color: orange;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: solid 2px black;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px orange;
+    font-family: 'Lilita' ,sans-serif;
+    transition: 0.3s ease;
+}
+.botao:hover {
+    background-color: #ff9500;
+    transform: scale(1.05);
+    cursor: pointer;
+}
