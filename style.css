@@ -1,17 +1,19 @@
 body {
     color: black;
+    background-color: black;
     margin: 0;
     position: relative;
     z-index: 0;
 }
 body::before {
+    background: url(imagens/UaiBurguer.webp);
+    filter: brightness(70%);
     content: "";
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("imagens/UaiBurguer.webp");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -31,7 +33,7 @@ h1 {
     height: 100vh;
     position: relative;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 0 auto;
 }
 #hamburguer::before {
@@ -121,6 +123,12 @@ h1 {
     .bem, .vindos {
         font-size: 90px;
 }
+body::before{
+    background-image: url("imagens/UaiBurguerMobile.webp");
+    background-size: cover;
+    background-position: center;
+
+}
 #hamburguer{
     background: url(imagens/hamburguer2.webp);
     background-size: cover;
@@ -142,6 +150,7 @@ h1 {
     font-family: 'Lilita One' ,sans-serif;
     margin-top: 40px;
     text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+}
 .botao {
     display: block;
     text-align: center;
@@ -161,7 +170,6 @@ h1 {
     background-color: #ff9500;
     transform: scale(1.05);
     cursor: pointer;
-}
 }
 .whatsapp {
     display: block;
