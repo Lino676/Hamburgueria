@@ -150,6 +150,7 @@ body::before{
     font-family: 'Lilita One' ,sans-serif;
     margin-top: 40px;
     text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+    height: 2000px;
 }
 .botao {
     display: block;
