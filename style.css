@@ -15,7 +15,6 @@ body::before {
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
     z-index: -1;
 }
@@ -91,6 +90,9 @@ h1 {
     background-color: rgba(245, 149, 0, 0.1);
 }
 @media (max-width: 768px) {
+    body::before {
+        background-attachment: fixed;
+    }
     .bem, .vindos {
         display: flex;
         flex-direction: column;
@@ -127,12 +129,14 @@ body::before{
     background-image: url("imagens/UaiBurguerMobile.webp");
     background-size: cover;
     background-position: center;
+    background-attachment: scroll;
 
 }
 #hamburguer{
     background: url(imagens/hamburguer2.webp);
     background-size: cover;
     background-position: center;
+    height: auto;
 }
 .p1 {
     top: -15px;
